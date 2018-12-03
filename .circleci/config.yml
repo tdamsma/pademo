@@ -16,5 +16,6 @@ jobs:
 
     steps:
       - checkout
+      - run: pip install requests
       - run: ls -al
       - run: python demo.py
